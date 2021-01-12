@@ -18,6 +18,55 @@
 .calender{
     height: 1000px;
     width: 80%;
-    margin: 100px;
-   
+    margin: 100px;  
+}
+                    /* calculator */
+*{
+    margin: 0;
+    padding: 0;
+}
+                    h1{
+    font-size: 50px;
+    text-align: center;
+    color: brown;
+}
+.card{
+    
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin:20px 50px;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+    font-size: 0;
+}
+.card:hover{
+    box-shadow: 0 16px 32px 0 black;
+}
+
+ .calc-head #results{
+     border: 2px solid red;
+    width: 330px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+    background-color: gray;
+    color: white;
+} 
+.btn{
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: black;
+    color: wheat;
+}
+.btn-style{
+    background-color: blueviolet;
+}
+.btn:hover{
+    background-color:aqua;
 }
