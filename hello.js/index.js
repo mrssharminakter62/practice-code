@@ -163,19 +163,15 @@ console.log(typeof friendsAges);
 
        //switch---------------
        
-       num =200;
-       switch(num){
-           case 1000:
-               console.log('I an 1000');
-               break;
-          case 500:
-              console.log('I am 500');
-             break;
-         case 200:
-             console.log('I am 200');
-           break;
-         default:
-             console.log('Who are you')
+ num =200;
+ switch(num){
+ case 500: console.log('I am 500');
+ break;
+ case 200:
+ console.log('I am 200');
+  break;
+  default:
+  console.log('Who are you')
        }
         
   fruit = "orange";
@@ -241,10 +237,37 @@ var sum = sum1 + sum2 ;
 console.log(sum);
         //End..........................................
 
+// Object how can i use-------------------====================================
 
+var student = { id:121, phone:1745, name:"Anik"};
+var student1 = { id:234, phone:245, name:"Saad"};
 
+console.log(student);
+console.log(student1);
+// one rules--------------
 
+var phoneNo = student1.phone;
+console.log(phoneNo);
+//  second rules------------------------
 
+var phoneNo = student["phone"];
+console.log(phoneNo);
+// third rules------------
 
-        
+var phonePropName = "phone";
+var phoneNo1 = student[phonePropName];
+console.log(phoneNo1);
+
+//if you something change/update--------------------------------------------
+
+student.phone = 5343;
+console.log(student);
+student1['phone'] =3445;
+console.log(student1);
+// if you add some property or value--------------
+student.book = "Islami book";
+student1['book'] = "sorol pathe"
+console.log(student);
+console.log(student1);
+//  end of object rules----------------------------------------------------------
         
